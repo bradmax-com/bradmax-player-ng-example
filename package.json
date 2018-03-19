@@ -1,0 +1,57 @@
+{
+	"name": "@bradmax/player-ng-example",
+	"version": "0.0.0",
+	"description": "Bradmax Player for Angular example app.",
+	"author": "Piotr Długołęcki <piotr.dlugolecki@bradmax.pl>",
+	"license": "MIT",
+	"keywords": [
+		"bradmax",
+		"player",
+		"angular",
+		"angular-cli",
+		"javascript",
+		"typescript"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bradmax-com/bradmax-player-ng-example"
+	},
+	"homepage": "https://bradmax.com",
+	"engines": {
+		"node": "8.9.4",
+		"npm": "5.7.1",
+		"yarn": "1.5.1"
+	},
+	"scripts": {
+		"start": "ng serve",
+		"build": "ng build --prod",
+		"test": "ng test",
+		"lint": "ng lint",
+		"e2e": "ng e2e"
+	},
+	"dependencies": {
+		"@angular/animations": "5.2.9",
+		"@angular/common": "5.2.9",
+		"@angular/compiler": "5.2.9",
+		"@angular/core": "5.2.9",
+		"@angular/forms": "5.2.9",
+		"@angular/http": "5.2.9",
+		"@angular/platform-browser": "5.2.9",
+		"@angular/platform-browser-dynamic": "5.2.9",
+		"@angular/router": "5.2.9",
+		"@bradmax/player-ng": "0.0.0",
+		"core-js": "2.5.3",
+		"rxjs": "5.5.7",
+		"zone.js": "0.8.20"
+	},
+	"devDependencies": {
+		"@angular/cli": "1.7.3",
+		"@angular/compiler-cli": "5.2.9",
+		"@angular/language-service": "5.2.9",
+		"@types/node": "9.4.7",
+		"codelyzer": "4.2.1",
+		"ts-node": "5.0.1",
+		"tslint": "5.9.1",
+		"typescript": "2.7.2"
+	}
+}

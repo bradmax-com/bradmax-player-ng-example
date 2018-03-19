@@ -1,0 +1,7 @@
+:host bradmax-player-gorilla,
+:host bradmax-player-mole,
+:host bradmax-player-snake,
+:host bradmax-player-zebra {
+	width: 1280px;
+	height: 534px;
+}
